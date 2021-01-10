@@ -34,7 +34,7 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 被称为「无论做什么都看起来很轻松惬意的人」  
 我可以和您聊：  
 
-- 交响乐、吹奏乐、长笛(Flute)、声乐、音乐理论
+- 交响乐、吹奏乐、长笛(Flute)、声乐、合唱、音乐理论
 - 现代美术、素描、插画、美学理论
 - C++程序设计、编译原理、自然语言处理
 - 现代日本语、古典日本语、日本美学
@@ -87,7 +87,7 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 
 
 
-### 我的一些其他联系方式
+### 在其他地方找到我
 
 - E-mail:
   - **[master@mail.amachi.com.cn](mailto:master@mail.amachi.com.cn){:target="_blank"}**  
