@@ -59,7 +59,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 text-align: center;
                 color: #F0F8FF;
                 font-family: 'Cardo', serif;"> 
-                <small>Copyright AmachiInori 2017-2020. All Right Reserved.</small><br/>
+                <small>Copyright AmachiInori 2017-2021. All Right Reserved.</small><br/>
                 <small>Powered By Jekyll.</small><br/>
                 <small>amachi.com.cn</small></small><br/>
               </p> 
