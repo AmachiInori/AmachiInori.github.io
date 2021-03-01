@@ -29,7 +29,7 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 ## 关于我
 
 北京理工大学材料化学在读（悲  
-吹奏乐团摸鱼人 / 合法女子高生  
+吹奏乐团摸鱼人 / 前合唱团假声男高音  
 被称为「无论做什么都看起来很轻松惬意的人」  
 我可以和您聊：  
 
@@ -47,25 +47,22 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 - 插画-学习中
 - 长笛-熟练、钢琴-熟练、声乐-学习中
 
-### 好きなもの
+### 业余爱好
 
-- **古明地觉**
+- 古典音乐
+  - 长笛 / 短笛
+  - 声乐 / 合唱
 - 炼金工作室系列
 - ACGN / 主机游戏
 - 日语 / 拉丁文 / 精灵语
 - 现代绘画艺术  
-- 古典音乐
-  - 长笛 / 短笛
-  - 声乐
 - 睡觉
 - 以及通过自己的双手解决问题
 
-最喜欢的游戏是炼金工作室系列、八方旅人和二之国  
-最喜欢的角色是古明地觉  
-最喜欢的轻小说作者是しめさば和天沢夏月  
 最喜欢的画师是Y_Y和岸田梅尔  
 最喜欢的作曲家是门德尔松  
-最向往的职业是特别厉害的工程师或职业乐团长笛手  
+最喜欢的游戏是炼金工作室系列、八方旅人和二之国  
+最喜欢的轻小说作者是しめさば和天沢夏月  
 
 ### 愿望
 
@@ -78,13 +75,12 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 
 ### 项目
 
-- [Amachi STL](https://github.com/AmachiInori/Amachi-STL){:target="_blank"} - 开发中 (代表作)
+- [Amachi STL](https://github.com/AmachiInori/Amachi-STL){:target="_blank"} - 开发中
+- [Simple Calculator](https://github.com/AmachiInori/Simple_Calculator){:target="_blank"} - 编译原理练习
 - [Inori Compiler](https://github.com/AmachiInori/Satoru-InoriComplier){:target="_blank"} - 开发中
 - [DataVisual Hpp](https://github.com/AmachiInori/dataVisual){:target="_blank"} - 计划重构
 - [Inori Experi Calculator](https://github.com/AmachiInori/MPExDataProcessing){:target="_blank"} - 小工具
 - Synthesis and Photophysical Property of multiarylpyrroles (材料化学本科课程设计论文)
-
-
 
 ### 在其他地方找到我
 
