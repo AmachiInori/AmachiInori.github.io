@@ -110,83 +110,83 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 async="async"
                 src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
               ></script>
-            - | # 引入live2d看板娘！不需要可以把这一项都删掉 官方文档https://docs.paul.ren/pio/#/ GH仓库https://github.com/Dreamer-Paul/Pio
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
-              />
-              <script
-                async="async"
-                src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
-                onload='
-                    let pio_container = document.createElement("div");
-                    pio_container.classList.add("pio-container");
-                    pio_container.classList.add("left");
-                    pio_container.style.bottom = "-2rem";
-                    pio_container.style.zIndex = "1";
-                    document.body.insertAdjacentElement("beforeend", pio_container);
-                    let pio_action = document.createElement("div");
-                    pio_action.classList.add("pio-action");
-                    pio_container.insertAdjacentElement("beforeend", pio_action);
-                    let pio_canvas = document.createElement("canvas");
-                    pio_canvas.id = "pio";
-                    pio_canvas.style.width = "14rem";
-                    pio_canvas.width = "600";
-                    pio_canvas.height = "715";
-                    pio_container.insertAdjacentElement("beforeend", pio_canvas);
-                    let pio = new Paul_Pio({
-                      "mode": "fixed",
-                      "hidden": true,
-                      "content": {
-                        "welcome": ["欢迎来到木灵的炼金工作室！", 
-                                    "欢迎您！今天也在营业哦", 
-                                    "今天有好好吃饭吗？",
-                                    "你是来看我的吗？",
-                                    "今天过得怎么样呢？",
-                                    "今天木灵姐姐不在家哦。"],
-                        "link": ["https:\/\/amachi.com.cn/about/"],
-                        "skin": ["要看看我的其他衣服吗？"],
-                        "touch": ["你好呀。",  
-                                  "嗯？", 
-                                  "你想要找木灵姐姐吗？", 
-                                  "你要一起玩吗？",
-                                  "你是来看我的吗？",
-                                  "愿精灵指引你。"],
-                        "hidden": true,
-                        "referer": "欢迎您从 %t 远道而来",
-                        "close": "那么，再见呀。",
-                        "custom": [{
-                          "selector": "a",
-                          "type": "link",
-                          "text": "关于我的家.."
-                        }, {
-                          "selector": ".sidebar-toggle",
-                          "text": "打开侧边栏叭~"
-                        }, {
-                          "selector": ".effect-info",
-                          "text": "哇，你发现了什么！"
-                        }, {
-                          "selector": "#sidebar-search-input",
-                          "text": "想搜索什么呢？很多干货哦！"
-                        }, {
-                          "selector": "#toc",
-                          "text": "这是目录~"
-                        }, {
-                          "selector": ".page-title",
-                          "text": "这是标题~"
-                        }, {
-                          "selector": ".v",
-                          "text": "评论没有审核，要对自己的发言负责哦。"
-                        }]
-                      },
-                      "model": [
-                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/Goddess-Costume-White.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/School-2017-Costume-Yellow.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/pajamas-costume.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/Dress-Costume-Brown.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/default-costume.model.json"]
-                    });'
-              ></script>
+#            - | # 引入live2d看板娘！不需要可以把这一项都删掉 官方文档https://docs.paul.ren/pio/#/ GH仓库https://github.com/Dreamer-Paul/Pio
+#              <link
+#                rel="stylesheet"
+#                href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
+#              />
+#              <script
+#                async="async"
+#                src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
+#                onload='
+#                    let pio_container = document.createElement("div");
+#                    pio_container.classList.add("pio-container");
+#                    pio_container.classList.add("left");
+#                    pio_container.style.bottom = "-2rem";
+#                    pio_container.style.zIndex = "1";
+#                    document.body.insertAdjacentElement("beforeend", pio_container);
+#                    let pio_action = document.createElement("div");
+#                    pio_action.classList.add("pio-action");
+#                    pio_container.insertAdjacentElement("beforeend", pio_action);
+#                    let pio_canvas = document.createElement("canvas");
+#                    pio_canvas.id = "pio";
+#                    pio_canvas.style.width = "14rem";
+#                    pio_canvas.width = "600";
+#                    pio_canvas.height = "715";
+#                    pio_container.insertAdjacentElement("beforeend", pio_canvas);
+#                    let pio = new Paul_Pio({
+#                      "mode": "fixed",
+#                      "hidden": true,
+#                      "content": {
+#                        "welcome": ["欢迎来到木灵的炼金工作室！", 
+#                                    "欢迎您！今天也在营业哦", 
+#                                    "今天有好好吃饭吗？",
+#                                    "你是来看我的吗？",
+#                                    "今天过得怎么样呢？",
+#                                    "今天木灵姐姐不在家哦。"],
+#                        "link": ["https:\/\/amachi.com.cn/about/"],
+#                        "skin": ["要看看我的其他衣服吗？"],
+#                        "touch": ["你好呀。",  
+#                                  "嗯？", 
+#                                  "你想要找木灵姐姐吗？", 
+#                                  "你要一起玩吗？",
+#                                  "你是来看我的吗？",
+#                                  "愿精灵指引你。"],
+#                        "hidden": true,
+#                        "referer": "欢迎您从 %t 远道而来",
+#                        "close": "那么，再见呀。",
+#                        "custom": [{
+#                          "selector": "a",
+#                          "type": "link",
+#                          "text": "关于我的家.."
+#                        }, {
+#                          "selector": ".sidebar-toggle",
+#                          "text": "打开侧边栏叭~"
+#                        }, {
+#                          "selector": ".effect-info",
+#                          "text": "哇，你发现了什么！"
+#                        }, {
+#                          "selector": "#sidebar-search-input",
+#                          "text": "想搜索什么呢？很多干货哦！"
+#                        }, {
+#                          "selector": "#toc",
+#                          "text": "这是目录~"
+#                        }, {
+#                          "selector": ".page-title",
+#                          "text": "这是标题~"
+#                        }, {
+#                          "selector": ".v",
+#                          "text": "评论没有审核，要对自己的发言负责哦。"
+#                        }]
+#                      },
+#                      "model": [
+#                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/Goddess-Costume-White.model.json",
+#                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/School-2017-Costume-Yellow.model.json",
+#                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/pajamas-costume.model.json",
+#                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/Dress-Costume-Brown.model.json",
+#                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/default-costume.model.json"]
+#                    });'
+#              ></script>
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
               <script
                 src='https://zz.bdstatic.com/linksubmit/push.js'
@@ -294,35 +294,35 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background: Black;
                 }
               </style>
-            - | # 雪花效果，不需要的话可以删掉
-              <div class="Snow">
-                <canvas id="Snow"></canvas>
-              </div>
-              <script src="/js/snowing.js"></script>
-              <style>
-                #Snow{
-                  position: fixed;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                  z-index: 1;
-                  background: rgba(125,137,95,0.1);
-                  pointer-events: none;
-                }
-                @media (max-aspect-ratio: 2400/1850) {
-                  #Snow{
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 0%;
-                    height: 0%;
-                    z-index: 1;
-                    background: rgba(125,137,95,0.1);
-                    pointer-events: none;
-                  }
-                }
-              </style>
+#            - | # 雪花效果，不需要的话可以删掉
+#              <div class="Snow">
+#                <canvas id="Snow"></canvas>
+#              </div>
+#              <script src="/js/snowing.js"></script>
+#              <style>
+#                #Snow{
+#                  position: fixed;
+#                  top: 0;
+#                  left: 0;
+#                  width: 100%;
+#                  height: 100%;
+#                  z-index: 1;
+#                  background: rgba(125,137,95,0.1);
+#                  pointer-events: none;
+#                }
+#                @media (max-aspect-ratio: 2400/1850) {
+#                  #Snow{
+#                    position: fixed;
+#                    top: 0;
+#                    left: 0;
+#                    width: 0%;
+#                    height: 0%;
+#                    z-index: 1;
+#                    background: rgba(125,137,95,0.1);
+#                    pointer-events: none;
+#                  }
+#                }
+#              </style>
           sidebar: # 此配置项下是一些关于侧边栏的配置
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
